@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+const dbUrl = process.env.DB_URL || 'mongodb://localhost/todo-api'
 mongoose.set('debug', true)
-mongoose.connect('mongodb://localhost/todo-api', {
+mongoose.connect(dbUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: true
