@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
 
 function addTodos(todos) {
     // append todos to list
-    JSON.pare(todos).forEach(function (todo) {
+    JSON.parse(todos).forEach(function (todo) {
         addTodo(todo)
     });
 }
