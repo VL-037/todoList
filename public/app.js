@@ -3,7 +3,7 @@
 //= require jquery.flexslider-min
 //= require jquery_ujs
 
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
     $.getJSON('/api/todos')
         .then(addTodos)
 
