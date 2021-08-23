@@ -29,8 +29,8 @@ jQuery(document).ready(function ($) {
 
 function addTodos(todos) {
     // append todos to list
-    for(var todo of todos){
-        addTodo(todo)
+    for(var todo of Object.keys(todos)){
+        addTodo(todos[todo])
     }
 }
 
