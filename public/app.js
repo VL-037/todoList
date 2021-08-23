@@ -29,9 +29,9 @@ jQuery(document).ready(function ($) {
 
 function addTodos(todos) {
     // append todos to list
-    todos.forEach(function (todo) {
+    for(var todo of todos){
         addTodo(todo)
-    });
+    }
 }
 
 function addTodo(todo) {
