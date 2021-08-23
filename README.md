@@ -2,6 +2,8 @@
 
 a simple todo list app
 
+Heroku link: https://obscure-plains-74571.herokuapp.com/
+
 ### To run this project, please do the following:
 
 Create a .env file in the root directory and add the following code
